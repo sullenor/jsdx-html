@@ -20,8 +20,11 @@
     "url": "https://github.com/sullenor/jsdx-html/issues"
   },
   "homepage": "https://github.com/sullenor/jsdx-html",
-  "dependencies": {
+  "devDependencies": {
     "backbone": "^1.1.2",
+    "browserify": "^6.1.0",
+    "gulp": "^3.8.9",
+    "gulp-concat": "^2.4.1",
     "jquery": "^2.1.1",
     "lodash": "^2.4.1"
   }
