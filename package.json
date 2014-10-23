@@ -1,0 +1,28 @@
+{
+  "name": "jsdx-html",
+  "version": "0.0.1",
+  "description": "Веб морда для jsdx. Также содержит набор инструментов для ее разработки.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sullenor/jsdx-html.git"
+  },
+  "keywords": [
+    "jsdx"
+  ],
+  "author": {
+    "name": "Alexey Litvinov",
+    "email": "iamhoneyboy@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sullenor/jsdx-html/issues"
+  },
+  "homepage": "https://github.com/sullenor/jsdx-html",
+  "dependencies": {
+    "backbone": "^1.1.2",
+    "jquery": "^2.1.1",
+    "lodash": "^2.4.1"
+  }
+}
