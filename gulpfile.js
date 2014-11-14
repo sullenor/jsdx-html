@@ -21,7 +21,7 @@ gulp.task('html', function () {
 });
 
 gulp.task('js', function () {
-    var stream = browserify('./src/js/index.js').bundle();
+    var stream = browserify('./src/js/index.js', {paths: ['src']}).bundle();
 
     stream
         .pipe(vinyl('index.js'))
