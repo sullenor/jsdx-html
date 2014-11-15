@@ -9,7 +9,7 @@ var vinyl = require('vinyl-source-stream');
 gulp.task('default', ['css', 'js', 'html', 'watch']);
 
 gulp.task('css', function () {
-    gulp.src('./src/css/*.css')
+    gulp.src('./src/blocks/*/*.css')
         .pipe(concat('common.css'))
         .pipe(gulp.dest('./test'));
 });
