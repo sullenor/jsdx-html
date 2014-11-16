@@ -30,6 +30,6 @@ gulp.task('js', function () {
 
 gulp.task('watch', function () {
     gulp.watch('./src/index.jade', ['html']);
-    gulp.watch('./src/css/*.css', ['css']);
+    gulp.watch('./src/blocks/**/*.css', ['css']);
     gulp.watch('./src/js/*.js', ['js']);
 });
